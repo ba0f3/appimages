@@ -1,0 +1,8 @@
+app: Cryptoshark
+
+ingredients:
+  dist: focal
+  sources:
+    - deb http://us.archive.ubuntu.com/ubuntu/ focal main universe
+  debs:
+    - ../debs/cryptoshark_*.deb
